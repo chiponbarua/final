@@ -18,9 +18,7 @@ function loadMeal (data){
   
     var container = document.getElementById('main-container');
   
-      // var imgLink = data.meals[0].strMealThumb;
-      // var cat = data.meals[0].strCategory;
-      // var title = data.meals[0].strMeal;
+     
     
        container.innerHTML = `<div class="card" style="width: 50rem;">
   <img class="card-img-top" src="${data.meals[0].strMealThumb}" alt="Card image cap">

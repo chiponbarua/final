@@ -5,7 +5,15 @@ body {
     background-size: cover;
     -o-background-size: cover;
   }
-
+  .main-container {
+    background-color: rgb(134, 140, 141);
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(198, 198, 226);
+    background-color: rgb(228, 240, 255);
+    border-radius: 30px;
+  }
   /*****************************
 Media Queries for TABs:
 ******************************/
@@ -45,4 +53,4 @@ Media Queries for MOBILEs:
         grid-template-columns: 280px;
 
     }
-}
+} 
