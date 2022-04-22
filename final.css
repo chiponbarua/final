@@ -1,0 +1,48 @@
+body {
+    background: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  /*****************************
+Media Queries for TABs:
+******************************/
+
+@media only screen and (max-width: 992px) and (min-width:689px)  {
+    
+    .main-container{
+        grid-template-columns: 280px 280px;
+    }
+
+    .navb{
+        grid-template-columns: 280px 280px;
+
+    }
+
+    .FOOTER{
+        grid-template-columns: 280px;
+
+    }
+
+
+}
+/*****************************
+Media Queries for MOBILEs:
+******************************/
+@media only screen and (max-width: 688px){
+    
+    .main-container{
+        grid-template-columns: 280px;
+    }
+
+    .navb{
+        grid-template-columns: 280px;
+
+    }
+    .FOOTER{
+        grid-template-columns: 280px;
+
+    }
+}
